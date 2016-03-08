@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  <button id="mr_buttons">This is a button</button>
+
+    <script>
+      document.getElementById("mr_buttons").onclick = function() {
+        document.getElementById("spiderman").innerHTML = prompt("What's your name?")
+        document.getElementById("batman").innerHTML = prompt("What's your favorite color?")
+        document.getElementById("seal_man").innerHTML = prompt("Who's your favorite smurf?")
+      }
+    </script>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <span id="spiderman"> ________ </span> has a favorite color and it is
+  <span id="batman"> ________ </span> has a favorite color and it is
+  <span id="seal_man"> _______ </span> .
+
+
+  </body>
+</html>
